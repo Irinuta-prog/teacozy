@@ -1,0 +1,130 @@
+* {
+    font-family: Helvetica;
+    color: blanchedalmond;
+    background-color: palevioletred;
+    opacity: 0.9;
+    margin: 0;
+
+}
+header {
+    max-width: 400px;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+
+    height: 100px;
+    padding-left: 20x;
+    padding-right: 20px;
+
+    font-size: 22px;
+
+}
+
+#navbar-logo {
+    display: left;
+    max-height: 60px;
+    min-height: 20px;
+    max-width: fit-content;
+}
+
+#navbar-links li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+
+section {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+
+
+#mission * {
+    text-align: center;
+    width: 1200px;
+    opacity: 1;
+    padding: 10px;
+}
+
+
+
+
+#feautured {
+    text-align: center;
+}
+
+
+
+#feautured * {
+    margin: 5px;
+}
+
+#tea-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+}
+
+
+
+#locations {
+    height: 500px;
+    margin: 0;
+}
+
+#locations h2 {
+    background-color: transparent;
+}
+
+#locations > div {
+    display: flex;
+    opacity: 1;
+    margin: 15px;
+    background-color: transparent;
+}
+
+#locations div div {
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    opacity: 1;
+    padding: 10px 0px 10px 0px;
+}
+
+#locations div div * {
+    padding: 10px;
+}
+
+
+
+#contacts {
+    height: 200px;
+    justify-content: space-around;
+}
+
+
+
+footer {
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 1400px;
+}
